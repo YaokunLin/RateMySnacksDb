@@ -3,4 +3,6 @@
 %uri=https://github.com/sqitchers/sqitch-intro/
 
 appschema 2023-04-30T16:14:16Z Yaokun Lin <lin.yaokun1@gmail.com> # Add schema
-add_pgcrypto_extension [appschema] 2023-04-30T18:34:09Z Yaokun Lin <lin.yaokun1@gmail.com> # Add pgcrypto extension
+
+uuid_extension [appschema] 2023-04-30T19:21:46Z Yaokun Lin <lin.yaokun1@gmail.com> # Add uuid extension
+auth_providers_table [appschema] 2023-04-30T19:24:00Z Yaokun Lin <lin.yaokun1@gmail.com> # Add auth_providers_table
