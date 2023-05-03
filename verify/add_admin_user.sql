@@ -1,4 +1,4 @@
--- Verify rate-my-snacks-db:add1user on pg
+-- Verify rate-my-snacks-db:add_admin_user on pg
 
 BEGIN;
 

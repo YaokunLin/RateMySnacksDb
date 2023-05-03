@@ -9,4 +9,4 @@ auth_providers_table [appschema] 2023-04-30T19:24:00Z Yaokun Lin <lin.yaokun1@gm
 roles_table [appschema] 2023-05-03T07:00:00Z Yaokun Lin <lin.yaokun1@gmail.com> # Add roles_table
 populate_roles_table [appschema roles_table] 2023-05-03T07:04:14Z Yaokun Lin <lin.yaokun1@gmail.com> # Populate roles_table
 users_table [appschema roles_table auth_providers_table] 2023-05-03T07:13:32Z Yaokun Lin <lin.yaokun1@gmail.com> # Add users_table
-add1user [users_table] 2023-05-03T07:48:25Z Yaokun Lin <lin.yaokun1@gmail.com> # Add 1 user to users_table
+add_admin_user [users_table] 2023-05-03T08:00:43Z Yaokun Lin <lin.yaokun1@gmail.com> # Add admin user to users_table

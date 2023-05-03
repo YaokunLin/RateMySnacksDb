@@ -1,4 +1,4 @@
--- Revert rate-my-snacks-db:add1user from pg
+-- Revert rate-my-snacks-db:add_admin_user from pg
 
 BEGIN;
 
