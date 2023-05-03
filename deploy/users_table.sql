@@ -11,7 +11,6 @@ CREATE TABLE rms_schema.users (
   name TEXT,
   img_url TEXT,
   provider_id INT REFERENCES rms_schema.auth_providers(id),
-  provider_user_id TEXT,
   role_id INT REFERENCES rms_schema.roles(id),
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
