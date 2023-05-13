@@ -13,3 +13,4 @@ add_admin_user [users_table] 2023-05-03T08:00:43Z Yaokun Lin <lin.yaokun1@gmail.
 insert_user_func [users_table] 2023-05-12T06:47:43Z Yaokun Lin <lin.yaokun1@gmail.com> # Add insert user func
 snacks_table [users_table add_admin_user] 2023-05-12T06:52:38Z Yaokun Lin <lin.yaokun1@gmail.com> # Add snacks table
 img_urls_table [snacks_table] 2023-05-13T19:20:08Z Yaokun Lin <lin.yaokun1@gmail.com> # Add snack urls table
+insert_snack_func [snacks_table img_urls_table] 2023-05-13T19:38:12Z Yaokun Lin <lin.yaokun1@gmail.com> # Add insert_snack_function
