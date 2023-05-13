@@ -5,9 +5,8 @@ BEGIN;
 
 CREATE TABLE rms_schema.snacks (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-  name VARCHAR(255) NOT NULL,
-  description TEXT,
-  image_url VARCHAR(255),
+  s_name VARCHAR(255) NOT NULL,
+  describ TEXT,
   country VARCHAR(100),
   rating FLOAT DEFAULT 0,
   total_ratings INT DEFAULT 0,
